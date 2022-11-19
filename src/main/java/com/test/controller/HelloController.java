@@ -11,7 +11,7 @@ public class HelloController {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String test() {
-		return "docker-java-app is up and running: " + new Date();
+		return "service2 is up and running: " + new Date();
 	}
 
 }
