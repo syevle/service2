@@ -9,10 +9,10 @@ RUN apk update && apk add bash
 WORKDIR /app
 
 # Copy the fat jar into the container at /app
-COPY /target/service1.jar /app
+COPY /target/service2.jar /app
 
 # Make port 8080 available to the world outside this container
 EXPOSE 8080
 
 # Run jar file when the container launches
-CMD ["java", "-jar", "service1.jar"]
+CMD ["java", "-jar", "service2.jar"]
