@@ -225,7 +225,7 @@ Now we have our docker image ready however, we need to run a container based on 
 as below;
 
 ```
-	docker run -p 81:8080 service2
+	docker run -p 82:8080 service2
 ```
 
 The format is simple;
@@ -350,7 +350,7 @@ C:\00_ANA\JavaEE\WS\docker-java-app-example>
 3. Docker run
 
 ```
-	docker run -p 8081:8080 service2
+	docker run -p 82:8080 service2
 ```
 
 4. Test the app
