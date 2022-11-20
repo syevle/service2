@@ -236,7 +236,7 @@ The format is simple;
 
 The parameter **p** stands for the **port**. **External port** is the port that will be available outside of the docker container.
 The **internal port** is the port that will be available inside the docker container, which is **8080** because the default port of
-Spring Boot is set to **8080**. So outside of the Docker Container, we will use the port number **80**, and it is mapped to **8080**
+Spring Boot is set to **8080**. So outside of the Docker Container, we will use the port number **82**, and it is mapped to **8080**
 and will reach to the Spring Boot application.
 
 As you run the command, you can open up your browser, you can go to this url [http://localhost:80/docker-java-app/test](http://localhost/docker-java-app/test)
