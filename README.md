@@ -356,7 +356,7 @@ C:\00_ANA\JavaEE\WS\docker-java-app-example>
 4. Test the app
 
 ```
-	http://localhost/
+	http://localhost:82/
 ```
 
 5. Get the container id
